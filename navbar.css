@@ -1,0 +1,19 @@
+*{ padding: 0px;
+    margin: 0px;
+}
+
+
+div{
+    height: 100px;
+    width:1100px;
+    background-color: black;
+}
+a{
+    color: aliceblue;
+    
+    font-size: 20px;
+    padding-top: 40px;
+    padding: 90px;
+    margin: 10px;
+    
+}
