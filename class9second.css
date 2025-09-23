@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#left{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+     border-radius: 20px;
+    
+}
+#right{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 30, 255);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+div{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+  
+
+}
+p{
+    padding: 10px;
+}
+body{
+    background-image: url("darksiders-2-deathinitive-edition_5120x2880_xtrafondos.com\ \(1\).jpg");
+background:linear-gradient(to right, red,yellow,pink,purple,orange);
+background-repeat: repeat-y ;
+}
+
+   
