@@ -1,0 +1,7 @@
+.photo1 img {
+    border-radius: 50%;
+}
+.photo2 img {
+    .blur{filter:blur(4px);}
+}
+

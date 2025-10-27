@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(202, 13, 13);
+}
+@media only screen and (max-width:600px) and (min-width:200px){
+    body{
+        background-color: blueviolet;
+    }
+}
+.left {
+  float: left;
+  width: 50%;
+  background-color: rgb(1, 99, 132);
+  padding: 20px;
+}
+
+.right {
+  float: left;
+  width: 50%;
+  background-color: rgb(77, 15, 210);
+  padding: 20px;
+}
