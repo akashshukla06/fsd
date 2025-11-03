@@ -1,0 +1,24 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    background-color:aqua;
+    animation-name: example;
+    animation-duration:6s;
+    position: relative;
+
+}
+@keyframes example{
+    /* form{
+        background-color:aqua;
+    }
+    to{
+        background-color: brown; */
+0% {background-color:aqua;top: 0;left:0;}
+25% {background-color:rgb(26, 255, 0);top:0;left: 300px;}
+50% {background-color:rgb(247, 10, 10);top:500px;left: 300px;}
+75% {background-color:rgb(251, 255, 14);top:500px;left:0;}
+100% {background-color:rgb(16, 47, 255);top:0;left: 0;}
+
+    }
+}
