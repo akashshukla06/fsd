@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Validation</title>
+    <link rel="stylesheet" type="text/css" href="experiment6.css">
+</head><body>
+<h2 align="center">Registration Page</h2>
+<form onsubmit="return validateForm()">
+    <label for="name"><b>Name:</b></label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+    <label for="password"><b>Password:</b></label><br>
+    <input type="password" id="password" name="password" placeholder="Enter password"><br>
+    <input type="submit" value="Register"></form>
+<script>function validateForm() {
+    var name = document.getElementById("name").value.trim();
+    var password = document.getElementById("password").value.trim();
+    var namePattern = /^[A-Za-z]+$/;
+    if (!name.match(namePattern)) {
+        alert("Name should contain alphabets only.");
+        return false;}
+    if (name.length < 6) {
+        alert("Name should not be less than 6 characters.");
+        return false;}
+    if (password.length < 6) {
+        alert("Password should not be less than 6 characters.");
+        return false;}
+    alert("Form submitted successfully!");
+    return true;}
+</script></body></html>
